@@ -25,7 +25,7 @@ if (isset($_POST['submit'])){
     }
     if (strlen($_POST['password'])<8){
         $error=true;
-        print "Password too short!";
+        print "Password too short!!!";
     }
     if ($error==false){
         $username = $_POST['username'];
